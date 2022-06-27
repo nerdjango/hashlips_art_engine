@@ -21,35 +21,37 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [{
-    growEditionSizeTo: 7146,
+    growEditionSizeTo: 10,
     layersOrder: [
         { name: "Background" },
-        { name: "Skin" },
-        {
-            name: "Head Tats",
-            options: {
-                blend: MODE.multiply,
-            },
-        },
-        { name: "Facial Features" },
-        {
-            name: "Body Tats",
-            options: {
-                blend: MODE.multiply,
-            },
-        },
-        {
-            name: "Neck Tats",
-            options: {
-                blend: MODE.multiply,
-            },
-        },
-        { name: "Clothes" },
-        { name: "Mouth" },
-        { name: "Eyes" },
-        { name: "Jewelry" },
-        { name: "Eyewear" },
-        { name: "Headwear" },
+        /*
+          { name: "Skin" },
+          {
+              name: "Head Tats",
+              options: {
+                  blend: MODE.multiply,
+              },
+          },
+          { name: "Facial Features" },
+          {
+              name: "Body Tats",
+              options: {
+                  blend: MODE.multiply,
+              },
+          },
+          {
+              name: "Neck Tats",
+              options: {
+                  blend: MODE.multiply,
+              },
+          },
+          { name: "Clothes" },
+          { name: "Mouth" },
+          { name: "Eyes" },
+          { name: "Jewelry" },
+          { name: "Eyewear" },
+          { name: "Headwear" },
+          */
     ],
 }, ];
 
